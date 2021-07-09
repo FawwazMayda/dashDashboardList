@@ -1,1 +1,1 @@
-web: gunicorn app:5000
+web: gunicorn wsgi:app
